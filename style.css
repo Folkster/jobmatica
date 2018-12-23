@@ -1,0 +1,172 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-color: dodgerblue;
+
+}
+nav {
+  background-color: rebeccapurple;
+  height: auto;
+}
+
+main {
+  margin-top: 10vh;
+}
+
+.shop-menu {
+  background-color: darkorange;
+  top: 8vh;
+}
+
+.dropdown {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdown-toggle {
+  width: inherit  ;
+  height: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdown-menu {
+  width: 100vw;
+  padding: 1rem;
+}
+
+
+
+
+section {
+  margin-left: 30px;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.logo {
+  color: black;
+  font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+
+p {
+  font-size: 1.1rem;
+  color: white;
+  padding: 1vh 2vw 1vh 2vw;
+  height: auto;
+}
+h5 {
+  padding: 2vh 2vw 0vh 2vw;
+}
+
+h6 {
+  color: white;
+  opacity: 0.85;
+}
+
+section {
+  background-color: saddlebrown;
+  height: auto;
+  overflow: auto;
+}
+
+main>:nth-child(1){  /* p.p1 */
+  margin-top: 2vh;
+}
+
+main>:nth-child(2){  /* p.p1 */
+  margin-top: 4vh;
+}
+
+
+main>:last-child{ /* p.p2 */
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+}
+
+footer {
+  background-color: rebeccapurple;
+  position: static;
+  height: auto;
+  width: 100vw;
+  bottom: 0;
+  top: auto;
+}
+
+@media screen and (max-width:600px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .slogan {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 0.8rem
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .img-link h4 {
+    font-size: 1.2rem;
+  }
+
+}
+
+
+@media screen and (max-width:800px) and (orientation: landscape) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  .slogan {
+    font-size: 1.2rem;
+  }
+  .img-link {
+    flex: auto;
+  }
+
+  p {
+    font-size: 0.9rem
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  nav {
+    height: 12vh;
+  }
+  main {
+    margin-top: 13vh;
+  }
+}
+
+@media screen and (max-width:600px) and (orientation: portrait) {
+  h1 {
+    font-size: 1rem;
+  }
+  .slogan {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 0.8rem
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  main {
+    margin-top: 12vh;
+  }
+  .img-link h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+}
